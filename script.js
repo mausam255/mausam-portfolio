@@ -1,5 +1,5 @@
 const text =
-"Software Developer | Java Programmer | MERN Developer";
+"Software Developer | Java Programmer | Tech Enthusiast ";
 
 let index = 0;
 

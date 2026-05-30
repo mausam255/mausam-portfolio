@@ -101,7 +101,7 @@ section h2{
 /* Skills Section */
 
 .skill-box{
-    background:#1e293b;
+    background:#050709;
     padding:25px;
     border-radius:12px;
     margin-top:20px;
@@ -117,16 +117,41 @@ section h2{
 /* Project Section */
 
 .project{
-    background:#1e293b;
-    padding:20px;
-    margin-top:20px;
-    border-radius:10px;
-    transition:.3s;
+    background:#000000;
+    padding:25px;
+    margin:25px 0;
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+    transition:0.3s;
 }
 
 .project:hover{
-    transform:translateY(-5px);
-    box-shadow:0 0 15px rgba(56,189,248,0.3);
+    transform:translateY(-8px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+.project h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+    font-size:28px;
+}
+
+.project p{
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.project a{
+    color:#ff9800;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.project a:hover{
+    text-decoration:underline;
 }
 
 /* Footer */
